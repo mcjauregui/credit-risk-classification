@@ -5,7 +5,8 @@
 The purpose of this analysis is to evaluate how well a logistic regression model performs on a portfolio of loans. This is an instance of supervised learning, because we know which loans are actually healthy and which are high-risk. We test the model on two classes of loans: healthy and high-risk. We evaluate model performance with respect to two classes, individually. In other words, we subject the model to two tests. The first test is how well does it predict healthy loans. The second test is how well does it predict high-risk loans. The model could potentially perform well on one or the other class, or neither, or both. 
   
 The independent variables (features) we have to work with are loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, and total_debt. 
-There are 77,536 observations or rows in the dataset. The dataset can be described as follows:  
+There are 77,536 observations or rows in the dataset.   
+The dataset can be described as follows:  
   
           loan_size  interest_rate  borrower_income  debt_to_income  \  
 count  77536.000000   77536.000000     77536.000000    77536.000000     
@@ -15,7 +16,8 @@ min     5000.000000       5.250000     30000.000000        0.000000
 25%     8700.000000       6.825000     44800.000000        0.330357    
 50%     9500.000000       7.172000     48100.000000        0.376299   
 75%    10400.000000       7.528000     51400.000000        0.416342    
-max    23800.000000      13.235000    105200.000000        0.714829     
+max    23800.000000      13.235000    105200.000000        0.714829    
+  
        num_of_accounts  derogatory_marks    total_debt   loan_status    
 count     77536.000000      77536.000000  77536.000000  77536.000000   
 mean          3.826610          0.392308  19221.949804      0.032243    
