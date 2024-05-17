@@ -37,8 +37,8 @@ c. Separate the data into labels and features by spliting the data into X (featu
 d. Split the data into train and test set using train_test_split. The result is four data sets: X_train, X_test, y_train, y_test. We assign a value of 1 to the random_state function. We stratify y because it's a means of maintaining the distribution of classes (0 and 1) in both sets (training and testing). We do this in an effort to ensure the proportion of both classes in the original dataset is maintained in both the training and testing sets. This helps us avoid overfitting or underfitting to one class, which can hinder unbiased model performance evaluation.
 e. Define a logistic regression model with a random state of 1 and fit the model with the training data (X_train and y_train). 
 f. Instantiate the Logistic Regression model with the LogisticRegression method, and fit the logistic regression model with the training data.  
-g. Generate testing predictions with the logistic regression model on the test data (X_test). 
-h. The first step in evaluating the model results is generating a confusion matrix out of the y_test data and testing predictions. The confusion matrix takes the following shape, and the actual ouput is included below:  
+g. Generate testing predictions with the logistic regression model on the test data (X_test).   
+h. The first step in evaluating the model results is generating a confusion matrix out of the y_test data and testing predictions. The confusion matrix takes the following shape, and the actual ouput is included below:    
 
                           Predicted Positive            Predicted Negative  
                                 0                               1  
