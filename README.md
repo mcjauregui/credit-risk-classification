@@ -7,7 +7,7 @@ The purpose of this analysis is to evaluate how well a logistic regression model
 The independent variables (features) we have to work with are loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, and total_debt. 
 There are 77,536 observations or rows in the dataset.   
 The dataset can be described as follows:  
-  
+
           loan_size  interest_rate  borrower_income  debt_to_income  \  
 count  77536.000000   77536.000000     77536.000000    77536.000000     
 mean    9805.562577       7.292333     49221.949804        0.377318    
