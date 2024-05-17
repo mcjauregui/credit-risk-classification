@@ -30,8 +30,6 @@ max          16.000000          3.000000  75200.000000      1.000000
   
 The dependent variable (outcomes or responses) is loan_status. A value of 0 indicates a healthy loan while a value of 1 indicates a high-risk loan. A high-risk loan implies a loss for the lender while a healthy loan implies a profit. Lenders seek to maximize the number of healthy loans in their portfolios and minimize the number of high-risk loans.   
 
-* Describe the stages of the machine learning process you went through as part of this analysis.  
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).  
 Machine Learning Process:  
 a. Read the CSV file representing the loan portfolio into a Pandas DataFrame  
 b. Get descriptive statistics for the DataFrame  
